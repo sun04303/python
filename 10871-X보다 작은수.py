@@ -6,4 +6,4 @@ for i in num:
     if(i < x):
         number.append(i)
 
-print(str(number).replace(",", "").replace("[", "").replace("]", ""))
+print(" ".join(map(str, number)))

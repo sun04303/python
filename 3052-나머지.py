@@ -1,8 +1,6 @@
 num = []
 
-for i in range(0, 10):
-    n = int(input())
-    num.append(n%42)
+for i in range(10):
+    num.append(int(input())%42)
 
-result = set(num)
-print(list(result).__len__())
+print(set(num).__len__())

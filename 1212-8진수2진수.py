@@ -1,2 +1,1 @@
-n = int(input(), 8)
-print(int(format(n, 'b')))
+print(bin(int(input(), 8))[2:])

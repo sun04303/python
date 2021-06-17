@@ -1,5 +1,5 @@
 s = input()
 s1 = input()
 
-if s.__len__() >= s1.__len__() : print("go")
+if len(s) >= len(s1) : print("go")
 else : print("no")
